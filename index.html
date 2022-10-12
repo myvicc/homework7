@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework7</title>
+</head>
+<body>
+<script>
+    let oper = prompt("Enter operation", "add, sub, mult, div");
+    const number1 = +prompt("Enter number1");
+    const number2 = +prompt("Enter number2");
+    let add = number1 + number2;
+    let sub = number1 - number2;
+    let mult = number1 * number2;
+    let div = number1 / number2;
+
+    if (oper === "add") {
+        alert(`${number1} + ${number2} = ${add}`);
+    }
+    if (oper === "sub") {
+        alert(`${number1} - ${number2} = ${sub}`);
+    }
+    if (oper === "mult") {
+        alert(`${number1} * ${number2} = ${mult}`);
+    }
+    if (oper === "div") {
+        alert(`${number1} / ${number2} = ${div}`);
+    }
+</script>
+</body>
+</html>
